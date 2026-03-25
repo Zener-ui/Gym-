@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IronFit</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar">
+
+  <!-- LOGO -->
+  <h2 class="logo">IRON<span>FIT</span></h2>
+
+  <!-- DESKTOP NAV -->
+  <ul class="list">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#programs">Programs</a></li>
+    <li><a href="#trainers">Trainers</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <!-- RIGHT SIDE -->
+  <div class="nav-right">
+<button class="join-btn" onclick="location.href='#contact'">
+  Join Now
+</button>
+    <i class="fas fa-bars menu-open" id="menuOpen"></i>
+  </div>
+
+</header>
+
+<!-- FULLSCREEN MENU -->
+<div class="mobile-menu" id="mobileMenu">
+
+  <div class="menu-top">
+    <h2 class="logo">IRON<span>FIT</span></h2>
+    <i class="fas fa-times menu-close" id="menuClose"></i>
+  </div>
+
+  <ul class="menu-links">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Programs</a></li>
+    <li><a href="#">Trainers</a></li>
+    <li><a href="#">Pricing</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+
+  <button class="menu-btn" onclick="location.href='#contact'">
+  Join Now
+</button>
+
+</div>
+
+<!-- HERO -->
+<section id="home" class="hero fade-in">
+  <div class="overlay"></div>
+
+  <div class="hero-content">
+
+    <!-- LEFT SIDE -->
+    <div class="hero-left">
+      <h1 class="brand-title">IRON<span>FIT</span></h1>
+      <p class="brand-desc">
+        Transform your life with world-class training,expert coaching,
+        and a community that pushes you <br>beyond limits.
+      </p>
+
+      <div class="buttons">
+        <button class="primary">Get Started →</button>
+        <button class="secondary">View Programs</button>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE (GLASS CARD) -->
+    <div class="hero-card">
+      <small>PREMIUM FITNESS EXPERIENCE</small>
+      <h2>Start Your Fitness Journey</h2>
+      <p>Join IronFit today and unlock your full potential.</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- TRAINERS -->
+<section id="trainers" class="trainers">
+  <div class="trainers-header">
+    <p class="tag">EXPERT TEAM</p>
+    <h2>Meet Your <span>Trainers</span></h2>
+  </div>
+
+  <div class="trainers-container">
+
+    <!-- CARD 1 -->
+    <div class="trainer-card">
+      <img src="images/gojo1.png" alt="trainer">
+      <div class="trainer-info">
+        <h3>Maya Rivera</h3>
+        <p>HIIT & Cardio Specialist</p>
+        <button>View Profile</button>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="trainer-card">
+      <img src="images/gojo2.png" alt="instructor">
+      <div class="trainer-info">
+        <h3>Alex Carter</h3>
+        <p>Head Strength Coach</p>
+        <button>View Profile</button>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="trainer-card">
+      <img src="images/gojo3.png" alt="trainer">
+      <div class="trainer-info">
+        <h3>Sophia Lee</h3>
+        <p>Yoga & Flexibility</p>
+        <button>View Profile</button>
+      </div>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="trainer-card">
+      <img src="images/gojo1.png" alt="trainer">
+      <div class="trainer-info">
+        <h3>Daniel Cruz</h3>
+        <p>Bodybuilding Expert</p>
+        <button>View Profile</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section id="programs" class="features">
+  
+  <p class="section-tag">WHY CHOOSE US</p>
+
+  <h2 class="section-title">
+    Train Smarter <span>Not Harder</span>
+  </h2>
+
+  <p class="section-subtitle">
+    We combine science, experience, and technology to help you reach your peak faster.
+  </p>
+
+  <div class="features-grid">
+
+    <!-- CARD 1 -->
+    <div class="feature-card">
+      <div class="feature-icon">🏋️</div>
+      <h3>Smart Training</h3>
+      <p>
+        Programs built using proven methods to maximize results and avoid injuries.
+      </p>
+    </div>
+
+    <!-- CARD 2 (highlighted) -->
+    <div class="feature-card active">
+      <div class="feature-icon">💚</div>
+      <h3>Fast Results</h3>
+      <p>
+        Get noticeable progress in weeks with structured and optimized workouts.
+      </p>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="feature-card">
+      <div class="feature-icon">👤</div>
+      <h3>Expert Coaching</h3>
+      <p>
+        Work with professional trainers who guide you every step of the way.
+      </p>
+    </div>
+
+    <div class="feature-card">
+      <div class="feature-icon">👤</div>
+      <h3>Expert Coaching</h3>
+      <p>
+        Your wellbeign is our priority and we will dedicate our full time to your health.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+
+<section class="testimonials fade-in">
+  
+  <p class="section-tag">TESTIMONIALS</p>
+  <h2 class="section-title">What Members <span>Say</span></h2>
+
+  <div class="carousel">
+    <div class="slides" id="slides">
+
+      <!-- 1 -->
+      <div class="testimonial active">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          "IronFit completely changed my approach to fitness. The trainers are incredible and the atmosphere keeps me coming back every day."
+        </p>
+        <strong>Sarah M.</strong>
+      </div>
+
+      <!-- 2 -->
+      <div class="testimonial">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          "The Pro membership is worth every penny. I lost 30lbs in 4 months with a plan tailored to me."
+        </p>
+        <strong>James L.</strong>
+      </div>
+
+      <!-- 3 -->
+      <div class="testimonial">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          "Best gym I’ve ever been to. Clean, modern, and super motivating environment."
+        </p>
+        <strong>Priya K.</strong>
+      </div>
+
+      <!-- 4 -->
+      <div class="testimonial">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          "I saw visible results in just weeks. The coaching is next level."
+        </p>
+        <strong>David R.</strong>
+      </div>
+
+      <!-- 5 -->
+      <div class="testimonial">
+        <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+        </div>
+        <p>
+          "Amazing vibe, amazing people. This place pushes you to be your best."
+        </p>
+        <strong>Emma T.</strong>
+      </div>
+
+<!-- 6 -->
+<div class="testimonial">
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+  </div>
+  <p>
+    "I’ve tried multiple gyms but nothing compares to IronFit. The environment alone keeps me motivated every single day."
+  </p>
+  <strong>- Michael B.</strong>
+</div>
+
+<!-- 7 -->
+<div class="testimonial">
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+  </div>
+  <p>
+    "The trainers actually care about your progress. I feel stronger, more confident, and healthier than ever."
+  </p>
+  <strong>- Olivia S.</strong>
+</div>
+
+<!-- 8 -->
+<div class="testimonial">
+  <div class="stars">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+  </div>
+  <p>
+    "From day one, I felt like part of a community. IronFit is more than a gym — it's a lifestyle."
+  </p>
+  <strong>- Daniel K.</strong>
+</div>
+
+    </div>
+  </div>
+
+</section>
+
+<section id="pricing" class="pricing">
+
+  <p class="section-tag">PRICING</p>
+  <h2 class="section-title">Choose Your <span>Plan</span></h2>
+
+  <div class="pricing-container">
+
+    <!-- STARTER -->
+    <div class="pricing-card">
+      <h3>Starter</h3>
+      <h1>$29 <span>/month</span></h1>
+      <div class="divider"></div>
+
+      <ul>
+        <li><i class="fas fa-check"></i> Access to gym floor</li>
+        <li><i class="fas fa-check"></i> Group classes</li>
+        <li><i class="fas fa-check"></i> Locker room access</li>
+        <li><i class="fas fa-check"></i> 1 guest pass</li>
+        <li><i class="fas fa-check"></i> Basic support</li>
+      </ul>
+
+      <button>Get Started</button>
+    </div>
+
+    <!-- BASIC -->
+    <div class="pricing-card">
+      <h3>Basic</h3>
+      <h1>$49 <span>/month</span></h1>
+      <div class="divider"></div>
+
+      <ul>
+        <li><i class="fas fa-check"></i> Everything in Starter</li>
+        <li><i class="fas fa-check"></i> Personal plan</li>
+        <li><i class="fas fa-check"></i> Nutrition guide</li>
+        <li><i class="fas fa-check"></i> Progress tracking</li>
+        <li><i class="fas fa-check"></i> Priority support</li>
+      </ul>
+
+      <button>Get Started</button>
+    </div>
+
+    <!-- STANDARD -->
+    <div class="pricing-card active">
+      <h3>Standard</h3>
+      <h1>$79 <span>/month</span></h1>
+      <div class="divider"></div>
+
+      <ul>
+        <li><i class="fas fa-check"></i> Everything in Basic</li>
+        <li><i class="fas fa-check"></i> Personal coaching</li>
+        <li><i class="fas fa-check"></i> Advanced tracking</li>
+        <li><i class="fas fa-check"></i> Weekly check-ins</li>
+        <li><i class="fas fa-check"></i> Faster results</li>
+      </ul>
+
+      <button>Get Started</button>
+    </div>
+
+    <!-- PREMIUM -->
+    <div class="pricing-card">
+      <h3>Premium</h3>
+      <h1>$99 <span>/month</span></h1>
+      <div class="divider"></div>
+
+      <ul>
+        <li><i class="fas fa-check"></i> Everything in Standard</li>
+        <li><i class="fas fa-check"></i> Unlimited coaching</li>
+        <li><i class="fas fa-check"></i> Body analysis</li>
+        <li><i class="fas fa-check"></i> VIP access</li>
+        <li><i class="fas fa-check"></i> Exclusive events</li>
+      </ul>
+
+      <button>Get Started</button>
+    </div>
+
+  </div>
+
+</section>
+<section id="contact" class="contact">
+
+  <p class="section-tag">GET IN TOUCH</p>
+  <h2 class="section-title">Ready to <span>Start?</span></h2>
+
+  <div class="contact-container">
+
+    <!-- LEFT: FORM -->
+    <div class="contact-form" id="contactForm">
+
+      <input type="text" placeholder="Your Name">
+      <input type="email" placeholder="Email Address">
+      <textarea placeholder="Your Message"></textarea>
+
+      <button id="sendBtn">Send Message</button>
+
+    </div>
+
+    <!-- RIGHT: CONTACT INFO -->
+    <div class="contact-info">
+
+      <div class="info-box">
+        <i class="fas fa-map-marker-alt"></i>
+        <div>
+          <h4>Location</h4>
+          <p>123 Fitness Ave, New York, NY</p>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <i class="fas fa-phone"></i>
+        <div>
+          <h4>Phone</h4>
+          <p>+1 (555) 123-4567</p>
+        </div>
+      </div>
+
+      <div class="info-box">
+        <i class="fas fa-envelope"></i>
+        <div>
+          <h4>Email</h4>
+          <p>hello@ironfit.com</p>
+        </div>
+      </div>
+
+      <!-- SOCIAL ICONS -->
+      <div class="socials">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<footer class="footer">
+
+  <div class="footer-container">
+
+    <!-- LEFT -->
+    <div class="footer-brand">
+      <h2>IRON<span>FIT</span></h2>
+      <p>
+        Transform your body and mind with elite training,
+        expert coaching, and a community built for results.
+      </p>
+    </div>
+
+    <!-- LINKS -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <a href="#">Home</a>
+      <a href="#">Programs</a>
+      <a href="#">Trainers</a>
+      <a href="#">Pricing</a>
+    </div>
+
+    <!-- CONTACT -->
+    <div class="footer-contact">
+      <h4>Contact</h4>
+      <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+      <p><i class="fas fa-envelope"></i> hello@ironfit.com</p>
+      <p><i class="fas fa-map-marker-alt"></i> New York, USA</p>
+    </div>
+
+    <!-- SOCIAL -->
+    <div class="footer-socials">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- BOTTOM -->
+  <div class="footer-bottom">
+    <p>© 2026 IRONFIT. All rights reserved.</p>
+  </div>
+
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
